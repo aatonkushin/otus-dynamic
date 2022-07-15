@@ -10,6 +10,7 @@ public class Main {
         System.out.println("2. Цифровая ёлочка");
         System.out.println("3. Пятью девять");
         System.out.println("4. Острова");
+        System.out.println("5. Маленький сарай");
 
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
@@ -26,6 +27,9 @@ public class Main {
                 break;
             case 4:
                 Islands.solve();
+                break;
+            case 5:
+                Saray.solve();
                 break;
         }
     }
